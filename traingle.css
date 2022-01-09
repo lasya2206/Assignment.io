@@ -1,0 +1,49 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: #007065;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    
+}
+
+#tri1{
+    position: relative;
+    width:0px;
+    height:0px;    
+    border: 100px solid;
+    background-color:transparent ;
+    border-top-color: transparent ;
+    border-right-color: transparent ;
+    border-left-color: transparent ;
+    border-bottom-color: #00a79d ;
+    top: 40px;
+      
+}
+ #tri2{
+    position: relative;
+    width:0px;
+    height:0px;    
+    border: 100px solid;
+    background-color:transparent ;
+    border-top-color: transparent ;
+    border-right-color: transparent ;
+    border-left-color: transparent ;
+    border-bottom-color: #f5c181;
+    top: -190px; 
+
+}
+ #tri3{
+    position: relative;
+    width:0px;
+    height:0px;    
+    border: 100px solid;
+    background-color:transparent ;
+    border-top-color: transparent ;
+    border-right-color: transparent ;
+    border-left-color: transparent ;
+    border-bottom-color: #ffeecf;
+    top: -420px; 
+
+} 
