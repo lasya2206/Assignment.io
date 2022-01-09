@@ -1,0 +1,136 @@
+body{
+    margin: 0px;;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+  align-items: center;
+}
+#bg1{
+    background-color: #386641;
+    border-bottom-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+}
+.navbar h1{
+    color: white;
+}
+#imag{
+    height: 200px;
+    width: 200px;
+    padding: 30px;
+    margin-left: 60%;
+    display: flex;
+    justify-content: flex-end;
+}
+#bt{
+    width: 60px;
+    height: 50px;
+    display: inline;
+    padding: 5px;
+}
+#btn1{
+    border-radius: 30px;
+    border-style: none;
+    background-color: orangered;
+    color: white;
+    width: 180px;
+    height: 50px;
+}
+   #first{
+       font-size: 60px;
+       font-weight: 200;
+       font-stretch: 10px;
+       
+   }
+   .mai{
+       display: flex;
+       text-align: center;
+       width: auto;
+       justify-content: center;
+   }
+   #middle{
+       
+       background-color: #DFD3C3;
+   }
+   #x{
+       position: relative;
+       text-align: center;
+       top:50px;
+   }
+   #b{
+       position: relative;
+       top:50px
+   }
+   .wrapper{
+    margin-top: 20px;
+   }
+   .wrapper h3{
+       font-size: 52px;
+   }
+   #st{
+       height: 30px;
+       width: 30px;
+       
+   }
+   .mai .b{
+       background: #fff;
+       margin: 5px;
+       width: 300px;
+       margin-bottom: 50px;
+       padding: 20px;
+       line-height: 25px;
+   }
+   .mai .b h3{
+       font-size: 26px;
+       margin-top: 50px;
+   }
+   .mai .b #h3{
+       
+   }
+   input{
+       display: flex;
+       display: inline;
+       border-radius: 40px;
+       
+   }
+   #info{
+       color: cornsilk;
+       margin-left: 40px;
+       margin-bottom: 40px;
+   }
+
+div{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-left: 20px
+    
+}
+ul li{
+    list-style: none;
+    color: white;
+}
+a{
+    padding: 15px;
+    font-weight: 200;
+}
+.nav-links {
+    display: flex; 
+    justify-content: flex-end;
+    margin-right: 20px;
+    
+  }
+  #a{
+      display: flex;
+  }
+  #b{
+      width: 100%;
+  }
+  .footer{
+    text-align: center;
+    background:#C7B198;
+    margin-bottom: 0%;
+    margin-left: 0px;
+    height: 70px;
+    font-size: 24px;
+}
