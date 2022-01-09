@@ -1,0 +1,152 @@
+body{
+    margin: 0%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.top-menu {
+    display: flex;
+    height: 50px;
+}
+.top-menu .brand{
+    float:left;
+    width: 40%;
+}
+.top-menu .item{
+    float: center;
+    display: flex;
+    width: 40%;
+    padding: 10px;
+    margin: 10px;
+}
+.pro img{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+.pro{
+    display: flex;
+    
+}
+.top-menu .pro  {
+    float: right;
+    width: 20%;
+}
+#it{
+    display: flex;
+     
+
+}
+.brand #lo{
+    height: 50px;
+    width: 250px;
+    
+}
+#fed{
+    height: 25px;
+    width: 25px;
+}
+#o{
+    display: flex;
+}
+.main{
+    
+    margin-left: 50PX;
+    width: 624px;
+    height: 320px;
+}
+.main #a{
+    width: 577px;
+    height: 126px;
+    font-size: 44px;
+    color: #000000DE;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+p span{
+    color: #174ea6;
+}
+#fa{
+    font-size: 24px;
+    color: #000000DE;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#fb{
+    font-size: 14px;
+    color: #5F6368;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.main #b{
+    width: 577px;
+    height: 72px;
+    font-size: 18px;
+    color: #5F6368;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.main #c{
+    display: flex;
+}
+#s{
+    border-radius: 50%;
+    height: 300px;
+    width: 300px;
+}
+.first p:first-child{
+    font-size: 44px;
+    
+}
+#bt2{
+    width: 328px;
+    height: 67px;
+    margin: 6px 0px 0px;
+}
+#out{
+    width: 178px;
+    height: 70px;
+    color: white;
+}
+#in{
+    background: #174ea6;
+    width: 154px;
+    height: 48px;
+    text-align: center;
+    margin: 5px;
+    margin-top: 5px;
+}
+#in span{
+    width: 100px;
+    height: 20px;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    margin-left: 5px;
+}
+
+#bt2{
+    display: flex;
+    padding: 0px 16px 0px 0px;
+}
+
+#bt2 input{
+    width: 320px;
+    height: 48px;
+}
+.input-icons i {
+    position: absolute;
+}
+  
+.input-icons {
+    width: 100%;
+    margin: 10px;
+}
+  
+.icon {
+    padding: 10px;
+    min-width: 40px;
+}
+  
+.input-field {
+    width: 320px;
+    padding: 10px;
+    text-align: center;
+}
