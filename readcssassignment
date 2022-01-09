@@ -1,0 +1,18 @@
+plate
+bento
+#fancy
+plate apple
+#fancy pickle
+.small
+orange.small
+bento orange.small
+plate,bento
+*
+plate *
+plate+apple   // for sibling
+bento~pickle // for general sibling
+plate>apple  //child selector
+orange: first-child  //
+Only Child Pseudo-selector
+Select an element that are the only element inside of another one
+plate apple:only-child,plate pickle:only-child
