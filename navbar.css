@@ -1,0 +1,51 @@
+body{
+    margin: 0%;
+    padding: 0%;
+}
+.navbar{
+    display: flex;
+    height: 50px;
+    padding: 10px;
+    background-color: #F5C6A5;
+    position: fixed; /* Set the navbar to fixed position */
+    top: 0;
+    width: 100%;
+    
+    }
+    .main{
+        margin-top: 100px;
+        margin-left: 20px;
+        
+    }
+    .brand{
+        height: 50px;
+        width: 40%;
+        text-align: center;
+        color: white;
+    }
+    .menu{
+        width: 60%;
+        float: right;
+        text-align: center;
+        height: 50px;
+        font-size: 20px;
+        font-family: 'Times New Roman', Times, serif;
+        
+    }
+   a{
+       text-decoration: none;
+       line-height: 70px;
+       justify-content: center;
+       margin-left:10px;
+       color: white;
+        
+   }
+   h1{
+       line-height: 25px;
+   }
+   .footer{
+       text-align: center;
+       background: #F5C6A5;
+       margin-bottom: 0%;
+       height: 70px;
+   }
