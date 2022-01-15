@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="CalculatorUi.css">
+    </head>
+    <body>
+        <header>
+            <h3> Calculator Dashboard</h3>
+        </header>
+        <main>
+            <p id="num"></p>
+             <table>
+                <tr>
+                    <td></td>
+                </tr>
+                 <tr>
+                     <td><button onClick="clearAll();" id="btn">C</button></td>
+                     <td><button id="btn">+/-</button></td>
+                     <td><button id="btn">%</button></td>
+                     <td><button onClick='setOperator("/");' id="btn">/</button></td>
+                     
+                 </tr>
+                 <tr>
+                    <td><button onClick='concatNumber("7");' id="btn">7</button></td>
+                     <td><button onClick='concatNumber("8");'id="btn">8</button></td>
+                     <td><button onClick='concatNumber("9");' id="btn">9</button></td>
+                     <td><button onClick='setOperator("x");' id="btn">×</button></td>
+                </tr>
+                <tr>
+                    <td><button onClick='concatNumber("4");'id="btn">4</button></td>
+                     <td><button onClick='concatNumber("5");'id="btn">5</button></td>
+                     <td><button onClick='concatNumber("6");'id="btn">6</button></td>
+                     <td><button onClick='setOperator("-");' id="btn">–</button></td>
+                </tr>
+                <tr>
+                    <td><button onClick='concatNumber("1");'id="btn">1</button></td>
+                     <td><button onClick='concatNumber("2");'id="btn">2</button></td>
+                     <td><button onClick='concatNumber("3");'id="btn">3</button></td>
+                     <td><button onClick='setOperator("+");' id="btn">+</button></td>
+                </tr>
+                <tr>
+                     <td><button onClick='concatNumber("0");' id="btn">0</button></td>
+                     <td><button id="btn">•</button></td>
+                     <td><button onClick="deleteLastDigit();" id="btn">⨂</button></td>
+                     <td><button onClick="equals();" id="btn">=</button></td>
+                </tr>
+             </table>
+            
+        </main>
+        <footer></footer>
+        <script src="Calculator.js"></script>
+    </body>
+</html>
