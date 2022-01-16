@@ -1,0 +1,30 @@
+body{
+    margin: 0%;
+    background:#FFCDDD ;
+}
+H1{
+    text-align: center;
+}
+div h2{
+
+    right: 10px;
+    background: #FF6363;
+    height: 50px;
+    
+}
+#A h2{
+    position: sticky;
+    top: 0;
+    
+}
+#B h2{
+    position: sticky;
+    top: 0;
+    
+}
+#C h2{
+    position: sticky;
+    top: 0;
+    
+}
+
