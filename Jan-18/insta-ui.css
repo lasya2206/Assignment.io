@@ -1,0 +1,62 @@
+*{
+    margin: 0%;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 15px;
+}
+.main{
+    display: flex;
+}
+.brand{
+    display: flex;
+    justify-content: space-between;
+}
+.brand img{
+    height: 70px;
+    width: 200px;
+    
+}
+.brand .side{
+    float: right;
+    
+}
+.feed-ico{
+    display: flex;
+    justify-content: space-between;
+}
+.ava{
+    display: flex;
+    margin: 5px;
+}
+.feed{
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 15px;
+    border: 1px solid lightgray;
+}
+.aside{
+    float: right;
+    border: 1px solid lightgray;
+    width: 200px;
+    padding: 15px;
+}
+#im{
+    height:50px;
+    width: 50px;
+    border-radius: 50px;
+}
+
+#bi{
+    display: flex;
+}  
+#mid{
+    display: flex;
+    float: right;
+}
+.side:hover{
+    color: red;
+}
